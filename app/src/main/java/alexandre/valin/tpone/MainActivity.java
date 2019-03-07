@@ -26,6 +26,8 @@ public class MainActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+
+        // j'ajoute un commentaire
     }
 
     @Override
