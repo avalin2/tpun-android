@@ -20,14 +20,45 @@
 
     </android.support.design.widget.AppBarLayout>
 
-    <include layout="@layout/content_main" />
 
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:layout_margin="@dimen/fab_margin"
-        app:srcCompat="@android:drawable/ic_dialog_email" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="321dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/renseignement"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/nom_form"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Votre nom"
+            tools:layout_editor_absoluteX="wrap_content"
+            tools:layout_editor_absoluteY="wrap_content" />
+
+        <EditText
+            android:id="@+id/prenom_form"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Votre prenom"
+            tools:layout_editor_absoluteX="161dp"
+            tools:layout_editor_absoluteY="286dp" />
+
+        <Button
+            android:id="@+id/button_valAcc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Valider"
+            tools:layout_editor_absoluteX="260dp"
+            tools:layout_editor_absoluteY="368dp" />
+    </LinearLayout>
+
 
 </android.support.design.widget.CoordinatorLayout>

@@ -1,4 +1,7 @@
 <resources>
-    <string name="app_name">TP1 - Alexandre</string>
+    <string name="app_name">My App</string>
     <string name="action_settings">Settings</string>
+    <string name="welcome_app">Application de contact</string>
+    <string name="renseignement">Merci de renseignement vos informations</string>
+
 </resources>
