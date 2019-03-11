@@ -11,12 +11,17 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
+import android.widget.ImageView;
+
 
 public class MainActivity extends AppCompatActivity {
 
     private Button validForm ;
     private EditText nom;
     private EditText prenom;
+
+    String Tnom, Tprenom;
 
 
     @Override
@@ -35,6 +40,9 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent secondActi = new Intent(getApplicationContext(),ViewContact.class);
                 startActivity(secondActi);
+                Tnom=nom.getText().toString();
+                Tprenom=prenom.getText().toString();
+                Toast.makeText(getApplicationContext(), "Bienvenue !" + Tnom + " " + Tprenom, Toast.LENGTH_LONG).show();
                 finish();
             }
         });
@@ -64,4 +72,6 @@ public class MainActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
+
 }
