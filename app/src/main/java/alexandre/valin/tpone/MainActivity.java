@@ -12,15 +12,12 @@ import android.view.MenuItem;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
-import android.widget.ImageView;
-
 
 public class MainActivity extends AppCompatActivity {
 
     private Button validForm ;
     private EditText nom;
     private EditText prenom;
-
     String Tnom, Tprenom;
 
 

@@ -1,7 +1,8 @@
 <resources>
-    <string name="app_name">Mon application</string>
-    <string name="action_settings">Paramètres</string>
+    <string name="app_name">My App</string>
+    <string name="action_settings">Settings</string>
     <string name="welcome_app">Application de contact</string>
-    <string name="renseignement">Merci de renseigner vos informations !</string>
+    <string name="renseignement">Merci de renseigner vos informations</string>
+    <string name="title_activity_det_contact">DetContact</string>
 
 </resources>

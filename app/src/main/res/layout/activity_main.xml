@@ -21,8 +21,6 @@
     </android.support.design.widget.AppBarLayout>
 
 
-
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -30,7 +28,6 @@
         android:orientation="vertical"
         tools:layout_editor_absoluteX="321dp"
         tools:layout_editor_absoluteY="16dp">
-
 
         <ImageView
             android:layout_width="fill_parent"
@@ -45,8 +42,6 @@
             android:layout_height="wrap_content"
             android:text="@string/renseignement"
             android:textSize="15dp" />
-
-
 
         <EditText
             android:id="@+id/nom_form"
@@ -71,7 +66,6 @@
             android:text="Valider"
             tools:layout_editor_absoluteX="260dp"
             tools:layout_editor_absoluteY="368dp" />
-
 
     </LinearLayout>
 
